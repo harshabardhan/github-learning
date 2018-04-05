@@ -1,0 +1,57 @@
+*********************************GIT COMMANDS*********************************
+
+To check git version
+#git --version 
+
+===============================================================================
+Making a folder to local repository
+#git init
+
+===============================================================================
+configuring remote repo with a local repo
+#git remote add <alias repo name> "https://github.com/harshabardhan/github-learning.git"
+
+===============================================================================
+To check if any remote repo is added or not
+#git remote -v
+
+===============================================================================
+removing remote repo
+#git remote remove origin
+
+===============================================================================
+To check the status of repository
+#git status
+
+===============================================================================
+For staging a new file
+#git add <filename.txt>
+#git add --all     --> to add all the files for stage
+or
+#git add .
+
+===============================================================================
+To unstage a file
+#git rm --cached <filename.txt>
+
+===============================================================================
+Configuring our Username and email id
+#git config --global user.name "username"
+#git config --global user.email "email id"
+
+===============================================================================
+To commit in local repository
+# git commit -m "comments to be mentioned"
+
+===============================================================================
+To check lists of commit
+#git log
+
+===============================================================================
+Pushing files from local to remote repository
+#git push <alias repo name> master
+
+===============================================================================
+Generate ssh key to login
+#ssh-keygen -t rsa -C "our mail id"
+
