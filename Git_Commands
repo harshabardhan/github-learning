@@ -55,3 +55,24 @@ Pushing files from local to remote repository
 Generate ssh key to login
 #ssh-keygen -t rsa -C "our mail id"
 
+===============================================================================
+To check list of branches
+#git branch
+
+===============================================================================
+To create new branch
+#git branch <Branch Name>
+
+===============================================================================
+To change/switch to different branch
+#git checkout <new branch name>
+
+===============================================================================
+To create a new branch and switch to that branch in a single command
+#git checkout -b <branch name>
+
+===============================================================================
+To merge previous branch to a new branch
+#git merge <source branch>
+
+===============================================================================
